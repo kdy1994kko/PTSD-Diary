@@ -1,3 +1,3 @@
 # PTSD-Diary
 
-# https://ptsd-diary.netlify.app
+# https://ptsd-diary.netlify.app   404
