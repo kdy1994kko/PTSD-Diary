@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABC’z For PTSD</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <!-- change the video to your own -->
+                <source src="assets/book.mp4" />
+            </video>
+            <section class="content"> 
+                <div class="container">
+                    <h1>ABC Diary for PTSD</h1>
+                    <label for="activating-event">Activating Event (A):</label>
+                    <textarea id="activating-event" rows="4" placeholder="What Happened To You ??"></textarea>
+                    <label for="beliefs-thoughts">Beliefs/Thoughts (B):</label>
+                    <textarea id="beliefs-thoughts" rows="4" placeholder="What Do You Tell Yourself ??"></textarea>
+                    <label for="emotional-consequences">Consequences (C):</label>
+                    <textarea id="emotional-consequences" rows="4" placeholder="What Do You Feel ??"></textarea>
+                    <textarea id="Q1" rows="4" placeholder="Are My Beliefs/Thoughts (B) Realistic Or Helpful ??"></textarea>
+                    <label for="Q1">Question 1</label>
+                    <textarea id="Q2" rows="4" placeholder="What Can I Tell Myself On Such Occasions In The Future??"></textarea>
+                    <label for="Q2">Question 2</label>
+                    <button onclick="saveEntry()">Save Entry</button>
+                    <div id="diary-entries"></div>
+                </div> 
+            </section>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html> 
+
+<!--
+
+-->
